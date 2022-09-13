@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 3;
+}
+
+nav {
+  position: relative;
+  left: 50rem;
+}
+
+
+
+ul {
+  display: flex;
+  
+}
+
+li {
+  margin: 0 2.5rem; 
+  padding: 10px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+img {
+  object-fit: cover;
+  margin-left: 20px;
+  width: 5rem;
+  padding: 10px;
+  height: auto;
+}
+
+#form {
+  position: relative;
+  top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#email {
+  margin: 15px;
+  width: 250px;
+  padding: 5px 5px;
+}
+
+#submit {
+
+  padding: 8px;
+  width: 150px;
+  background-color: rgb(212, 212, 125);
+  border-style: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: rgb(211, 181, 121);
+  transition: 1s;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-1 {
+  position: relative;
+  top: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  
+}
+
+.section-3 {
+  position: relative;
+  top: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12rem;
+  margin-top: 3rem;
+}
+
+img {
+  margin-right: 5rem;
+}
+
+.video {
+  position: relative;
+  top: 15rem;
+  display: flex;
+  justify-content: center;
+}
+
+.section-price {
+  position: relative;
+  top: 25rem;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-price-main {
+  display: flex;
+}
+.container-price {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+}
+
+.container-price h2 {
+  padding: 20px;
+}
+.container-price p {
+  text-align: center;
+  line-height: 35px;
+}
+
+.container-price input {
+  margin-top: 20px;
+}
+.container-price h2 {
+  font-weight: 900;
+}
+
+.footer {
+  position: relative;
+  top: 28rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.copy {
+  position: relative;
+  top: 30rem;
+text-align: center;
+padding: 10px;
+}
+
+
+@media (max-width: 600px) {
+  
+}

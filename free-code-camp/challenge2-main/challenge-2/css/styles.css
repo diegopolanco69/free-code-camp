@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://www.execoach.es/wp-content/uploads/Execoach-Deca%CC%81logo-de-una-reunio%CC%81n-efectiva.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:#fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 4px;
+}
+#survey-form {
+  width: 800px;
+  margin: auto;
+  background-color: rgba(63, 63, 163, 0.847);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+input {
+  width: 700px;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+}
+
+input:hover {
+  outline: 2px solid rgba(32, 32, 218, 0.936);
+}
+
+#name-label, #email-label, #number-label {
+  margin-top: 30px;
+}
+
+.select-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#p1 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#dropdown {
+  width: 700px;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+.checkbox-1 {
+}
+
+.para1 {
+  justify-content: flex-start;
+}
+
+#definitely, #maybe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+}
